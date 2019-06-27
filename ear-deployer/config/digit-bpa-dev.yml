@@ -3,14 +3,14 @@ config:
   timeout: 2500
   tenant.name: "Digit BPA Productization"
   jenkins:
-    url: 
-    username: 
-    authtoken: 
+    url: http://168.63.253.5/
+    username: TLhQsiSWbTyZ63bHOsYw3g==
+    authtoken: tD02OTTFGNZvqmnAyPJvXA==
   digisign:
     enabled: false
   redis:
     flush.enabled: TRUE
-    hostaddr: ""
+    hostaddr: "172.16.1.4"
   cdn:
     enabled: FALSE
     s3.bucket: "NA"
@@ -19,14 +19,14 @@ config:
   wildfly:
     home.path: 
     host.addr: 
-      - ""
-    host.username: 
-    host.password: 
+      - "172.16.2.4"
+    host.username: M3s06kFidYU5p4hdJe7AGg==
+    host.password: M3s06kFidYU5p4hdJe7AGg==
     host.ssh.port: 22
     mgmt:
       port: 9990
-      username: 
-      password: 
+      username: M3s06kFidYU5p4hdJe7AGg==
+      password: M3s06kFidYU5p4hdJe7AGg==
 # >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 # Nexus Settings
 # Retrive Digital Signature JAR and its dependency
