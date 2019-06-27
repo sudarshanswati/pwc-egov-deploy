@@ -1,0 +1,49 @@
+# >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+config:
+  timeout: 2500
+  tenant.name: "Digit BPA Productization"
+  jenkins:
+    url: 
+    username: 
+    authtoken: 
+  digisign:
+    enabled: false
+  redis:
+    flush.enabled: TRUE
+    hostaddr: ""
+  cdn:
+    enabled: FALSE
+    s3.bucket: "NA"
+    s3.accesskey: "NA"
+    s3.secretkey: "NA"
+  wildfly:
+    home.path: 
+    host.addr: 
+      - ""
+    host.username: 
+    host.password: 
+    host.ssh.port: 22
+    mgmt:
+      port: 9990
+      username: 
+      password: 
+# >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+# Nexus Settings
+# Retrive Digital Signature JAR and its dependency
+nexus:
+  url:  
+  username: "NA"
+  password: "NA"
+  private.repository: NA
+  group.id: NA
+  artifact.id: NA
+  package.type: NA
+  version.id: NA
+# >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+# SMTP Settings
+smtp:
+  hostname: smtp.gmail.com
+  port: 465
+  username: 
+  password: 
+  receivers: 
